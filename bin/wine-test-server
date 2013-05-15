@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'wine'
+
+begin
+  Wine::TestServer.start(ARGV)
+rescue Interrupt
+  exit
+end
