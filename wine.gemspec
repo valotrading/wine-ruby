@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.name        = "wine"
   s.version     = Wine::VERSION
   s.summary     = "A protocol for configuring and monitoring agents"
-  s.description = File.open("README.md") { |f| f.read }
+  s.description = "Wine is a protocol for configuring and monitoring agents."
   s.homepage    = "http://github.com/valotrading/wine-ruby"
   s.authors     = [ "Pekka Enberg", "Jussi Virtanen" ]
   s.email       = "engineering@valotrading.com"
