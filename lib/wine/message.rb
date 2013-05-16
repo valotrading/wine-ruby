@@ -1,5 +1,5 @@
 require 'bindata'
-require 'wine/error'
+require 'wine/errors'
 
 module Wine
   module Message

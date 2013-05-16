@@ -1,4 +1,4 @@
-require 'wine/error'
+require 'wine/errors'
 require 'wine/message'
 
 module Wine
